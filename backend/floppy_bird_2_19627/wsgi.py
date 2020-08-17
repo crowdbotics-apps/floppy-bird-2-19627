@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'floppy_bird_2_19627.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "floppy_bird_2_19627.settings")
 
 application = get_wsgi_application()
